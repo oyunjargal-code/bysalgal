@@ -4,25 +4,17 @@ export const Hero = () => {
   return (
     <div>
       <div className="flex gap-4 bg-[#eeece9] justify-between">
-        <span className="font-bold p-4">ॐ</span>
-        <div  className='flex '>
-          <div className='hidden md:block md:justify-between'>
- <h1>Дхамма-Махаана</h1>
+        <div className=''>
+        <p className="font-bold p-4">ॐ</p>
+        </div>
+       <div className='hidden md:block md:ml-8'>
+          <h1>Дхамма-Махаана</h1>
           <h3>Випашяна Бясалгалын Төв</h3>
           </div>
-         
-          <div>
-<p className='p-4'><MenuIcon /></p>
+          <div className=''>
+          <p className='p-4'><MenuIcon /></p>
           </div>
-          
-          
-
-    
-  
-
-
-
-        </div>
+       
       </div>
      <div>
       <div className='bg-[#eeece9] w-fit flex flex-col mt-10 text-center p-2'>
